@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <title>Form Pendaftaran Mahasiswa</title>
+
+    <style>
+        .data-buku {
+            display: flex;
+            flex-direction: row;
+        }
+        .form-pendataan-buku, .tabel-buku {
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+            margin: 5px;
+            flex-grow: 1;
+            border: solid black;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+    <body>
+        <div class="data-buku">
+            <div class="form-pendataan-buku">
+                <h1>Form Pendataan Buku</h1>
+                <input class="form-control mb-2" type="text" id="judul" placeholder="Judul">
+                <input class="form-control mb-2" type="text" id="penulis" placeholder="Nama Penulis">
+                <input class="form-control mb-2" type="text" id="penerbit" placeholder="Nama Penerbit">
+                <button class="btn btn-primary" name="submit" id="submit">Masukkan Data!</button>
+            </div>
+        <div class="tabel-buku">
+            <h1>Data Buku</h1>
+            <table class="table table-bordered me-5">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Judul</th>
+                        <th>Penulis</th>
+                        <th>Penerbit</th>
+                    </tr>
+                </thead>
+                <tbody id="tabel-tbody">
+                    <tr>
+                                            
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+        <script>
+            function tampilkanData() {
+                const dataTersimpan = localStorage.getItem("dataTersimpan");
+                const dataTersimpanObjectArray = JSON.parse(dataTersimpan);
+                console.log("data:", dataTersimpanObjectArray);
+    
+                const tabel = document.getElementById("tabel-tbody"); 
+    
+                let isiTabel = ``;
+    
+                dataTersimpanObjectArray.forEach(function(dataTersimpanObject, index) {
+                    isiTabel += `
+                        <tr>
+                            <td>${index + 1}</td>
+                            <td>${dataTersimpanObject.judul}</td>
+                            <td>${dataTersimpanObject.penulis}</td>
+                            <td>${dataTersimpanObject.penerbit}</td>
+                        </tr>
+                    `;
+                });
+    
+                tabel.innerHTML = isiTabel;
+                
+            }
+            
+            var inputJudul = document.getElementById("judul");
+            var inputPenulis = document.getElementById("penulis");
+            var inputPenerbit = document.getElementById("penerbit");
+            var inputSubmit = document.getElementById("submit");
+    
+            inputSubmit.onclick = function() {
+                const judul = inputJudul.value;
+                const penulis = inputPenulis.value;
+                const penerbit = inputPenerbit.value;
+                const pesan = `Data buku ${judul}, telah dikirim !`;
+                const data = {
+                    judul,
+                    penulis,
+                    penerbit,
+                };
+                alert(pesan);
+                console.log(data);
+    
+                const dataTersimpan = localStorage.getItem("dataTersimpan");
+                const dataTersimpanObjectArray = JSON.parse(dataTersimpan) 
+
+                if(dataTersimpan === null) {
+                    localStorage.setItem("dataTersimpan", JSON.stringify([data]));
+                } else {
+                    dataTersimpanObjectArray.push(data);
+                    localStorage.setItem("dataTersimpan", JSON.stringify(dataTersimpanObjectArray));
+                }
+    
+                console.log("data tersimpan: ", dataTersimpan);
+                console.log("data tersimpan object array: ", dataTersimpanObjectArray);
+            };
+        </script> 
+    </body>
+</html>
+
