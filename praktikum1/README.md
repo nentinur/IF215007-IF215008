@@ -1,2 +1,2 @@
 #Praktikum Pertemuan 1
-!Screenshoot](SS.png)
+![Screenshoot](SS.png)
