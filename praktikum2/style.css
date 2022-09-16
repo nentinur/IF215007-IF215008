@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background: #eeeeee;
+    display: flex;
+    flex-direction: row;
+}
+#form-container {
+    flex-grow: 1;
+    padding: 12px;
+}
+#form-container form {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    margin: 5px;
+}
+#table-container {
+    flex-grow: 2;
+    padding: 12px;
+}
+#table-container table {
+    border-collapse: collapse;
+    width: 100%;
+}

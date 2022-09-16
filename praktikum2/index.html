@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form-container">
+        <form id="form" action="http://localhost:3000/penduduk" method="post" >
+            <input type="text" name="nik" id="nik" placeholder="NIK">
+            <input type="text" name="nama" id="nama" placeholder="Nama">
+            <input type="text" name="alamat" id="alamat" placeholder="Alamat">
+            <input type="submit" value="Kirim">
+            <button id="post-json-button">POST via Content Type URL</button>
+        </form>
+    </div>
+    <div id="table-container">
+        <table id="table" border="1">
+            <thead>
+                <tr>
+                    <td>NIK</td>
+                    <td>Nama</td>
+                    <td>Alamat</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script>
+        var nik = document.getElementsByName("nik")[0]
+        var nama = document.getElementsByName("nama")[0]
+        var alamat = document.getElementsByName("alamat")[0]
+        var postJSONbutton = document.getElementById("post-json-button")
+        postJSONbutton.onclick = function(e) {
+            e.preventDefault();
+            console.log("nik: ", nik.value)
+            console.log("nama: ", nama.value)
+            console.log("alamat: ", alamat.value)
+
+            var urlPOST = document.getElementById("form").getAttribute("action")
+            console.log(urlPOST)
+
+            var dataJSON = {
+                nik: nik,
+                nama: nama,
+                alamat: alamat,
+            }
+
+            var konfiguasiPOST = {
+                method : "POST", 
+                body : JSON.stringify(fataJSON),
+                Headers : new Headers({
+                    'Content-Type' : 'application/json; charset=UTF-8',
+                })
+
+            }
+
+            console.log()
+            fetch(urlPOST, konfigurasiPOST).then(function(responMentahDariServer){
+                console.log()
+                return responMentahDariServer.json();
+            }).then(function(responMatengDariServer){
+                
+            })
+            fetch("https://api.publicapis.org/entries")
+            .then(function(mentah){
+                return mentah.json();
+            })
+            .then(function(mateng){
+                var p = document.getElementById("respon-dariserver");
+                p.innerHTML = JSON.stringify(mateng);
+            })
+        }
+    </script>
+</body>
+</html>
