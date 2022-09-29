@@ -1,4 +1,4 @@
-# Pengembangan Aplikasi Web + Paktikum
+# Pengembangan Aplikasi Web + Praktikum
 - Nama: Nenti Nurnaningsih
 - NIM: 1207050090
 - Kelas: IF-E
