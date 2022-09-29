@@ -29,4 +29,4 @@ Saat menunggu bus yang tak kunjung datang itu saya pun terfikirkan untuk membuat
 | no. bus | varchar | E3214IF |
 
 # UX Wireframe
-![IMG-20220912-WA0001](https://user-images.githubusercontent.com/81434333/189564177-5280d329-0f3d-457c-a3e7-bad560141d58.jpg)
+![GObus App](https://user-images.githubusercontent.com/81434333/193085030-698c41cf-7c52-4154-809f-9209a387ed06.png)
