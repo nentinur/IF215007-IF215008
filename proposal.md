@@ -16,17 +16,37 @@ Saat menunggu bus yang tak kunjung datang itu saya pun terfikirkan untuk membuat
 ### Penumpang
 | Atribut | Tipe Data | Contoh |
 |---|---|---|
-| ID | integer | 233 |
+| ID Penumpang | integer | 233 |
 | nama | varchar | nenti |
+| password | varchar | jshayuOBmy52nOmsb |
 | kontak | varchar | 087712345678 |
 ### Sopir 
 | Atribut | Tipe data | Contoh |
 |---|---|---|
-| ID | integer | 12 |
+| ID Sopir | integer | 12 |
 | nama | varchar | sucipto |
+| password | varchar | jshayuOBmy52nOmsb |
 | kontak | varchar | 089911223344 |
+### Bus
+| no bus | varchar | E3214IF |
 | jurusan | varchar | Bandung-Indramayu |
-| no. bus | varchar | E3214IF |
+| ID sopir | integer | 12 |
+### Tiket 
+| ID Tiket | integer | 101020221251 |
+| ID Penumpang | integer | 233 |
+| no bus | varchar | E3214IF |
+| ID Sopir | integer | 12 |
+| tanggal | date | 2022-10-10 |
+| pembayaran | integer | 900000 |
+### Trip
+| no bus | varchar | E3214IF |
+| latitude | double | -6.8792624 |
+| longitude | double | 107.9745632 |
+### Jadwal 
+| ID Jadwal | integer | 2653 |
+| no bus | varchar | E3214IF |
+| waktu | datetime | 2022-10-10 14:00 |
+
 
 # UX Wireframe
 ![GObus App](https://user-images.githubusercontent.com/81434333/193085030-698c41cf-7c52-4154-809f-9209a387ed06.png)
