@@ -28,10 +28,14 @@ Saat menunggu bus yang tak kunjung datang itu saya pun terfikirkan untuk membuat
 | password | varchar | jshayuOBmy52nOmsb |
 | kontak | varchar | 089911223344 |
 ### Bus
+| Atribut | Tipe data | Contoh |
+|---|---|---|
 | no bus | varchar | E3214IF |
 | jurusan | varchar | Bandung-Indramayu |
 | ID sopir | integer | 12 |
 ### Tiket 
+| Atribut | Tipe data | Contoh |
+|---|---|---|
 | ID Tiket | integer | 101020221251 |
 | ID Penumpang | integer | 233 |
 | no bus | varchar | E3214IF |
@@ -39,10 +43,14 @@ Saat menunggu bus yang tak kunjung datang itu saya pun terfikirkan untuk membuat
 | tanggal | date | 2022-10-10 |
 | pembayaran | integer | 900000 |
 ### Trip
+| Atribut | Tipe data | Contoh |
+|---|---|---|
 | no bus | varchar | E3214IF |
 | latitude | double | -6.8792624 |
 | longitude | double | 107.9745632 |
 ### Jadwal 
+| Atribut | Tipe data | Contoh |
+|---|---|---|
 | ID Jadwal | integer | 2653 |
 | no bus | varchar | E3214IF |
 | waktu | datetime | 2022-10-10 14:00 |
