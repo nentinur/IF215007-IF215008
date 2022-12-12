@@ -17,7 +17,7 @@ Saat menunggu bus yang tak kunjung datang itu saya pun terfikirkan untuk membuat
 - User penumpang dapat melakukan chat dengan sopir bus
 
 ### Struktur Data
-![ERD GObus App](ERD-GOBUS.drawio.png)
+![ERD GObus App](ERD-gobus.drawio.png)
 
 # Source Code
 Frontend : [Frontend GOBUS-app](https://github.com/nentinur/gobus-app)
