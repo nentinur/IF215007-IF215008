@@ -1,5 +1,6 @@
 # CLO-0211
 ### Demo : Git installation
+![Instalasi git](install-git.gif)
 
 ### Demo : Github project initialization
 
