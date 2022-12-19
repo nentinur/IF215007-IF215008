@@ -5,16 +5,21 @@
 ### Demo : Github project initialization
 
 ### Demo : Hoppscotch / Postman access
+![hopscotch](hopscotch.gif)
 
 ### Demo : PHP & Composer installation & hello world	
 
 ### Demo : PostgreSQL / MySQL installation	
+![postgre](postgre.png)
 
 ### Demo : DBeaver installation & DB connection
+![dbeaver](dbeaver.png)
 
 ### Demo : MobaXterm installation & SSH connection
+![mobaXterm](moba.png)
 
 ### Demo : NodeJS & NPM installation, operation & hello world
+![nodeJS](nodejs.png)
 
 ### Demo : Linux server operation	
 
