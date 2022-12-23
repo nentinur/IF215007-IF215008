@@ -50,7 +50,7 @@
 
 # CLO-0213
 ### Demo : HTML Responsive Layout with Bootstrap
-[bootstrap](bootstrap.png)
+![bootstrap](bootstrap.png)
 
 ### Demo : Single Page App with React & React-router
 
