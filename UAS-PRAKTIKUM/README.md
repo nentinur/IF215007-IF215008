@@ -31,15 +31,20 @@
 
 # CLO-0212
 ### Demo : HTML Responsive Layout with Media Query & Flexbox
+![responsive](responsive.gif)
 
 ### Demo : Javascript Data Transformation
 ![data-transformation](data-transformation.png)
 
 ### Demo : Browser API - Event Handling, Local Storage, Element manipulation
+![event](event-handling.png)
+![local](local-storage.png)
+![element](element-manipulation.png)
 
 ### Demo : HTTP GET & POST using Form Action and Fetch API
-
+![api](api.png)
 ### Demo : PHP DB - Dynamic Web Page
+![dynamic](dynamic.png)
 
 ### Demo : PHP DB - Web Service
 ![web-service](web-service.png)
@@ -53,9 +58,12 @@
 ![bootstrap](bootstrap.png)
 
 ### Demo : Single Page App with React & React-router
+![spa](spa.gif)
+![router](router.png)
 
 ### Demo : Dynamic Web Page using Laravel
+![dynamic](dynamic.png)
 
 ### Demo : Web Service using Slim
-
+![web-service](web-service.png)
 ### Demo : News Site using Wordpress
