@@ -33,6 +33,7 @@
 ### Demo : HTML Responsive Layout with Media Query & Flexbox
 
 ### Demo : Javascript Data Transformation
+![data-transformation](data-transformation.png)
 
 ### Demo : Browser API - Event Handling, Local Storage, Element manipulation
 
@@ -41,6 +42,7 @@
 ### Demo : PHP DB - Dynamic Web Page
 
 ### Demo : PHP DB - Web Service
+![web-service](web-service.png)
 
 ### Demo : OOP-based PHP Project using Composer
 
@@ -48,6 +50,7 @@
 
 # CLO-0213
 ### Demo : HTML Responsive Layout with Bootstrap
+[bootstrap](bootstrap.png)
 
 ### Demo : Single Page App with React & React-router
 
