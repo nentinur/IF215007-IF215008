@@ -3,11 +3,13 @@
 ![Instalasi git](install-git.gif)
 
 ### Demo : Github project initialization
+![git init](git=init.png)
 
 ### Demo : Hoppscotch / Postman access
 ![hopscotch](hopscotch.gif)
 
 ### Demo : PHP & Composer installation & hello world	
+![nodeJS](nodejs.png)
 
 ### Demo : PostgreSQL / MySQL installation	
 ![postgre](postgre.png)
@@ -28,6 +30,7 @@
 ### Demo : Cpanel operation	
 
 ### Demo : Domain registration
+![domain](domain.png)
 
 # CLO-0212
 ### Demo : HTML Responsive Layout with Media Query & Flexbox
@@ -67,3 +70,4 @@
 ### Demo : Web Service using Slim
 ![web-service](web-service.png)
 ### Demo : News Site using Wordpress
+![wordpress](wordpress.png)
