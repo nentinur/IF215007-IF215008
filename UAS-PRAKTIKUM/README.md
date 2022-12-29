@@ -3,7 +3,7 @@
 ![Instalasi git](install-git.gif)
 
 ### Demo : Github project initialization
-![git init](git=init.png)
+![git init](git-init.png)
 
 ### Demo : Hoppscotch / Postman access
 ![hopscotch](hopscotch.gif)
