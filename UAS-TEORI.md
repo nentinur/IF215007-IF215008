@@ -24,8 +24,8 @@ Saat menunggu bus yang tak kunjung datang itu saya pun terfikirkan untuk membuat
 ![ERD GObus App](ERD-gobus.drawio.png)
 
 # Source Code
-Frontend : [Frontend GOBUS-app](https://github.com/nentinur/gobus-app)
-Backend : [Backend GOBUS-api](https://github.com/nentinur/gobus-api)
+- Frontend : [Frontend GOBUS-app](https://github.com/nentinur/gobus-app)
+- Backend : [Backend GOBUS-api](https://github.com/nentinur/gobus-api)
 
 # Demo Project
-[Demo Aplikasi - Youtube](#)
+[Demo Aplikasi - Youtube](https://youtu.be/JgdoCF8vTkQ)
