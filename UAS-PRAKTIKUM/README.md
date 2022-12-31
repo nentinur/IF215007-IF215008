@@ -53,8 +53,10 @@
 ![web-service](web-service.png)
 
 ### Demo : OOP-based PHP Project using Composer
+![oop](oop.png)
 
 ### Demo : Deploy PHP Project to Cpanel
+![deploy](deploy.png)
 
 # CLO-0213
 ### Demo : HTML Responsive Layout with Bootstrap
