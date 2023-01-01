@@ -24,10 +24,13 @@
 ![nodeJS](nodejs.png)
 
 ### Demo : Linux server operation	
+![server](server.png)
 
 ### Demo : Nginx / Apache web server installation & operation
+![nginx](nginx.png)
 
 ### Demo : Cpanel operation	
+![server](server.png)
 
 ### Demo : Domain registration
 ![domain](domain.png)
